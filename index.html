@@ -334,7 +334,7 @@
         business with digital marketing & growth solutions.
       </p>
     
-</div>
+    </div>
     <div class="footer-social-box">
       <p class="footer-social">Social media</p>
 
@@ -367,12 +367,30 @@
 
     
   </div>
+  <div class="form-box">
+    <h3 class="footer-form-ttle">Subscribe</h3>
+    
+    <form class="footer-form">
+      <label class="footer-lable">
+      <input type="email" class="footer-mail" name="footer-mail" id="footer-mail" placeholder="E-mail">
+    </label>
+    </form>
+     <button type="submit" class="footer-mail-button">Subscribe 
+      <svg class="footer-button-svg" width="24" height="24">
+        <use href="./images/icons.svg#icon-Frame"></use>
+      </svg>
+     </button>
+   </div>
 </div>
   </footer>
 
-<div class="modal-overlay">
+<div class="backdrop">
   <div class="modal">
-    <button type="button" class="close-modal">X</button>
+    <button type="button" class="close-modal">
+      <svg class="modal-close-icon" width="8" height="8">
+        <use href="./images/icons.svg#icon-close"></use>
+      </svg>
+    </button>
     <p class="title-modal">Leave your contacts and we will call you back</p>
     <form class="modal-form">
     <div class="modal-field">
@@ -412,6 +430,14 @@
       <textarea name="user-coment" 
       id="user-coment" 
       placeholder="Text input" class="modal-text"></textarea>
+    </div>
+    <div class="modal-field">
+      <input type="checkbox" name="privacy" id="privacy" required class="modal-check visually-hidden">
+      <label for="privacy" class="modal-check-text"><span class="check-required">
+        <svg class="icon-modal-required"  width="10" height="8">
+          <use href="./images/icons.svg#icon-modal-done" ></use>
+        </svg>
+      </span>I accept the terms and conditions of the  <a href="" class="check-link"> Privacy Policy</a></label>
     </div>
     <button class="modal-button" type="submit">Send</button>
   </form>
