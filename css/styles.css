@@ -514,7 +514,7 @@ max-width: 264px;
 }
 
 .footer-social-box {
-    margin-right: 80px;
+    
 }
 
 .footer-social-link {
@@ -568,7 +568,12 @@ letter-spacing: 0.02em;
 
          }
 
-
+         .form-box{
+    display: flex;
+    justify-content: space-between;
+            align-items: flex-end;
+            gap: 24px;
+}
 
  .footer-form-ttle {
     font-family: "Roboto", sans-serif;
@@ -580,7 +585,10 @@ letter-spacing: 0.02em;
     padding-bottom: 16px;
         }
       
-
+.footer-lable {
+    display: flex;
+  flex-direction: column;
+}
 .footer-mail {
             
  border: 1px solid #fff;
@@ -598,14 +606,8 @@ color: #fff;
 
         }
 
-        .form-box {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-end;
-            gap: 24px;
-           
-            
-        }
+        
+        
 .footer-mail::placeholder {
 font-weight: 400;
 font-size: 12px;
