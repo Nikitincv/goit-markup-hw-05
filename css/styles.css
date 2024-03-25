@@ -851,9 +851,9 @@ margin-left: 4px;
      }
 
 .check-required {
-    display: inline-flex; 
-    justify-content: center;
-    align-items: center;
+display: inline-flex; 
+justify-content: center;
+align-items: center;
 width: 16px;
 height: 16px;
 border-radius: 2px;
