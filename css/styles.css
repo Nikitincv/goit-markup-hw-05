@@ -812,10 +812,14 @@ border-radius: 4px;
 outline: transparent;
 width: 360px;
 height: 120px;
-margin-bottom: 8px;
-padding-left: 16px;
-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+font-size: 12px;
+line-height: 1.17;
+letter-spacing: 0.04em;
+color: rgba(46, 47, 66, 0.4);
+padding: 8px 16px;
 resize: none;
+background-color: transparent;
+transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .modal-text:focus {
